@@ -267,7 +267,8 @@ voiceint.pop()
 print (voiceint)                    # --> ['Eth1/1' , 'Eth1/2' , 'Eth1/3']
 
 voiceint.pop(1)                     # --> ['Eth1/1', 'Eth1/3']
-print(voiceint.index('Eth1/3'))    # --> 1
+print(voiceint.index('Eth1/3'))     # --> 1
+
 
 
 
